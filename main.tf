@@ -121,7 +121,7 @@ resource "aws_instance" "tfdemo" {
   vpc_security_group_ids      = [aws_security_group.tfdemo.id]
 
   tags = {
-    Name       = "${var.prefix}-test-instance04"
+    Name       = "${var.prefix}-test-instance10"
     Department = "SE teams"
     Billable   = "Finance teams"
   }
